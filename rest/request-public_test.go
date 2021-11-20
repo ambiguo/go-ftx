@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/amiguo/go-ftx/rest"
-	"github.com/amiguo/go-ftx/rest/public/futures"
-	"github.com/amiguo/go-ftx/rest/public/markets"
+	"github.com/ambiguo/go-ftx/rest"
+	"github.com/ambiguo/go-ftx/rest/public/futures"
+	"github.com/ambiguo/go-ftx/rest/public/markets"
 	"github.com/dustin/go-humanize"
 	"github.com/stretchr/testify/assert"
 )

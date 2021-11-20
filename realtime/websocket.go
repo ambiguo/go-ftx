@@ -11,10 +11,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/amiguo/go-ftx/rest/private/fills"
-	"github.com/amiguo/go-ftx/rest/private/orders"
-	"github.com/amiguo/go-ftx/rest/public/markets"
-	"github.com/amiguo/go-ftx/types"
+	"github.com/ambiguo/go-ftx/rest/private/fills"
+	"github.com/ambiguo/go-ftx/rest/private/orders"
+	"github.com/ambiguo/go-ftx/rest/public/markets"
+	"github.com/ambiguo/go-ftx/types"
 	"github.com/buger/jsonparser"
 	"github.com/gorilla/websocket"
 )

@@ -3,7 +3,7 @@ package rest
 import (
 	"time"
 
-	"github.com/amiguo/go-ftx/auth"
+	"github.com/ambiguo/go-ftx/auth"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/valyala/fasthttp"
 )

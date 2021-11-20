@@ -1,8 +1,8 @@
 package rest
 
 import (
-	"github.com/amiguo/go-ftx/rest/private/leveraged"
-	"github.com/amiguo/go-ftx/rest/private/options"
+	"github.com/ambiguo/go-ftx/rest/private/leveraged"
+	"github.com/ambiguo/go-ftx/rest/private/options"
 )
 
 /*

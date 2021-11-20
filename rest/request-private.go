@@ -1,13 +1,13 @@
 package rest
 
 import (
-	"github.com/amiguo/go-ftx/rest/private/account"
-	"github.com/amiguo/go-ftx/rest/private/fills"
-	"github.com/amiguo/go-ftx/rest/private/funding"
-	"github.com/amiguo/go-ftx/rest/private/orders"
-	"github.com/amiguo/go-ftx/rest/private/spotmargin"
-	"github.com/amiguo/go-ftx/rest/private/subaccount"
-	"github.com/amiguo/go-ftx/rest/private/wallet"
+	"github.com/ambiguo/go-ftx/rest/private/account"
+	"github.com/ambiguo/go-ftx/rest/private/fills"
+	"github.com/ambiguo/go-ftx/rest/private/funding"
+	"github.com/ambiguo/go-ftx/rest/private/orders"
+	"github.com/ambiguo/go-ftx/rest/private/spotmargin"
+	"github.com/ambiguo/go-ftx/rest/private/subaccount"
+	"github.com/ambiguo/go-ftx/rest/private/wallet"
 )
 
 func (p *Client) Information(req *account.RequestForInformation) (*account.ResponseForInformation, error) {

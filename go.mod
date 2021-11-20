@@ -1,4 +1,4 @@
-module github.com/amiguo/go-ftx
+module github.com/ambiguo/go-ftx
 
 go 1.14
 

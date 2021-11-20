@@ -1,8 +1,8 @@
 package rest
 
 import (
-	"github.com/amiguo/go-ftx/rest/public/futures"
-	"github.com/amiguo/go-ftx/rest/public/markets"
+	"github.com/ambiguo/go-ftx/rest/public/futures"
+	"github.com/ambiguo/go-ftx/rest/public/markets"
 )
 
 func (p *Client) Markets(req *markets.RequestForMarkets) (*markets.ResponseForMarkets, error) {

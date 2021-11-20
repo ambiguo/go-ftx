@@ -20,7 +20,7 @@ go-ftx is a go client library for [FTX API Document](https://docs.ftx.com).
 ## Installation
 
 ```
-$ go get -u github.com/amiguo/go-ftx
+$ go get -u github.com/ambiguo/go-ftx
 ```
 
 ## Usage
@@ -30,14 +30,14 @@ package main
 import (
 	"fmt"
 	"github.com/dustin/go-humanize"
-	"github.com/amiguo/go-ftx/auth"
-	"github.com/amiguo/go-ftx/rest"
-	"github.com/amiguo/go-ftx/rest/private/orders"
+	"github.com/ambiguo/go-ftx/auth"
+	"github.com/ambiguo/go-ftx/rest"
+	"github.com/ambiguo/go-ftx/rest/private/orders"
 	//"log"
-	"github.com/amiguo/go-ftx/rest/private/account"
-	"github.com/amiguo/go-ftx/rest/public/futures"
-	"github.com/amiguo/go-ftx/rest/public/markets"
-	"github.com/amiguo/go-ftx/types"
+	"github.com/ambiguo/go-ftx/rest/private/account"
+	"github.com/ambiguo/go-ftx/rest/public/futures"
+	"github.com/ambiguo/go-ftx/rest/public/markets"
+	"github.com/ambiguo/go-ftx/types"
 	"github.com/labstack/gommon/log"
 	"sort"
 	"strings"
@@ -155,8 +155,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/amiguo/go-ftx/realtime"
-	"github.com/amiguo/go-ftx/auth"
+	"github.com/ambiguo/go-ftx/realtime"
+	"github.com/ambiguo/go-ftx/auth"
 
 	"github.com/labstack/gommon/log"
 )
@@ -209,4 +209,4 @@ func main() {
 
 ## License
 
-[MIT](https://github.com/amiguo/go-ftx/blob/master/LICENSE)
+[MIT](https://github.com/ambiguo/go-ftx/blob/master/LICENSE)
