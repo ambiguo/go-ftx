@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/go-numb/go-ftx/types"
+	"github.com/amiguo/go-ftx/types"
 )
 
 // query
